@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+:root {
+  /* App Main */
+  --app-main-background-color: #111111;
+  --app-main-foreground-color: #ffffff;
+  --app-main-padding-global: 0px;
+
+  /* App Head */
+  --app-head-background-color: #1b1b1b;
+  --app-head-foreground-color: #ffffff;
+  --app-head-padding-global: 10px;
+
+  --app-head-border-bottom: 1px solid #fff;
+  --app-head-border-radius-global: 0 0 5px 5px;
+
+  /* App Body */
+  --app-body-background-color: #111111;
+  --app-body-foreground-color: #ffffff;
+  --app-body-padding-global: 10px 20px;
+
+  --app-body-text-align: center;
+
+  /* App Foot */
+  --app-foot-background-color: #1b1b1b;
+  --app-foot-foreground-color: #ffffff;
+  --app-foot-padding-global: 10px;
+
+  --app-foot-border-top: 1px solid #fff;
+  --app-foot-border-radius-global: 5px 5px 0 0;
+
+  --h1-font-size: 20px;
+  --h2-font-size: 18px;
+  --h3-font-size: 16px;
+  --h4-font-size: 14px;
+  --h5-font-size: 12px;
+  --h6-font-size: 10px;
+
+  /* Navigation  Element */
+  --navigation-element-background-color: transparent;
+  --navigation-element-foreground-color: #ffffff;
+  --navigation-element-padding-global: 5px;
+
+  /* Navigation Branch */
+  --navigation-branch-background-color: transparent;
+  --navigation-branch-foreground-color: #ffffff;
+  --navigation-branch-padding-global: 5px;
+
+  /* Navigation Item */
+  --navigation-item-background-color: transparent;
+  --navigation-item-foreground-color: #ffffff;
+  --navigation-item-padding-global: 5px;
+
+  /* Card Main */
+  --card-main-background-color: transparent;
+  --card-main-foreground-color: #ffffff;
+  --card-main-padding-global: 5px;
+
+  /* Card Head */
+  --card-head-background-color: #2b2b2b;
+  --card-head-foreground-color: #ffffff;
+  --card-head-padding-global: 5px;
+  --card-head-border-radius-global: 5px 5px 0 0;
+
+  /* Card Body */
+  --card-body-background-color: #1b1b1b;
+  --card-body-foreground-color: #ffffff;
+  --card-body-padding-global: 5px;
+
+  /* Card Foot */
+  --card-foot-background-color: #2b2b2b;
+  --card-foot-foreground-color: #ffffff;
+  --card-foot-padding-global: 5px;
+  --card-foot-border-radius-global: 0 0 5px 5px;
+
+  /* Grid */
+  --grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+}
+
+h1 {
+  font-size: var(--h1-font-size);
+}
+
+h2 {
+  font-size: var(--h2-font-size);
+}
+
+h3 {
+  font-size: var(--h3-font-size);
+}
+
+h4 {
+  font-size: var(--h4-font-size);
+}
+
+h5 {
+  font-size: var(--h5-font-size);
+}
+
+h6 {
+  font-size: var(--h6-font-size);
+}
+
+strong,
+span,
+div,
+p,
+a {
+  font-size: var(--h3-font-size);
+}
+
+p {
+  word-break: break-all;
+  word-wrap: break-word;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+@media screen and (max-width: 820px) {
+  :root {
+    --h1-font-size: 18px;
+    --h2-font-size: 16px;
+    --h3-font-size: 14px;
+    --h4-font-size: 12px;
+    --h5-font-size: 10px;
+    --h6-font-size: 8px;
+  }
+}

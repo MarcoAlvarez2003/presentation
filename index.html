@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="UTF-8" />
+
+    <link rel="stylesheet" href="./styles/index.css" />
+    <title>Pagina de presentación</title>
+  </head>
+
+  <body>
+    <div class="app">
+      <div class="app__head">
+        <h1>Pagina de presentación</h1>
+
+        <nav class="navigation">
+          <ul class="navigation__branch">
+            <li class="navigation__item">
+              <a href="/">Inicio</a>
+            </li>
+
+            <li class="navigation__item">
+              <a href="#about-me">Sobre mi</a>
+            </li>
+
+            <li class="navigation__item">
+              <a href="#projects">Proyectos</a>
+            </li>
+
+            <li class="navigation__item">
+              <a href="#contacts">Contactos</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <main class="app__body" id="about-me">
+        <h2>Presentación</h2>
+
+        <p>
+          Mi nombre es Marcos, soy un desarrollador junior, me gusta la programación y mis lenguajes de programación favoritos son
+          <a href="https://www.typescriptlang.org/" target="_blank">TypeScript</a>,<a
+            href="https://developer.mozilla.org/es/docs/Web/JavaScript"
+            target="_blank"
+          >
+            JavaScript </a
+          >, <a href="https://www.python.org/">Python</a> y <a href="https://www.ruby-lang.org/" target="_blank">Ruby</a>, También conozco
+          <a href="https://sass-lang.com/" target="_blank">Sass</a>, <a href="https://pugjs.org/api/getting-started.html" target="_blank">Pug</a>,
+          <a href="https://developer.mozilla.org/docs/Web/CSS" target="_blank">CSS</a>,
+          <a href="https://developer.mozilla.org/docs/Web/HTML" target="_blank">HTML</a>, <a href="https://www.php.net/">PHP</a> preferencialmente los lenguajes
+          de programación de terminal. Puedo trabajar con a <a href="https://nodejs.org/">NodeJS</a> y <a href="https://deno.land/">Deno</a>, manejo varios
+          frameworks basados en <a href="https://nodejs.org/" target="_blank">NodeJS</a>, tales como:
+          <a href="https://expressjs.com/" target="_blank">Express</a>, <a href="https://hapi.dev/" target="_blank">Hapi.js</a>,
+          <a href="https://socket.io/" target="_blank">Socket.io</a>, <a href="https://www.electronjs.org/" target="_blank">Electron</a>,
+          <a href="https://webpack.js.org/" target="_blank">Webpack</a>,puedo manejar las base de datos basadas en
+          <a href="https://www.mongodb.com/" target="_blank">MongoDB</a> y en <a href="https://es.wikipedia.org/wiki/SQL" target="_blank">SQL</a> mediante
+          <a href="https://www.php.net/" target="_blank">PHP</a>. Me gusta bastante aprender tecnologías y lenguajes de programación nuevos, prefiero la parte
+          lógica de la programación, personalmente no soy muy bueno en la parte del diseño gráfico de las paginas web.
+        </p>
+
+        <h2>Proyectos</h2>
+
+        <div class="grid" id="projects">
+          <div class="card" id="scribble">
+            <div class="card__head">
+              <h3>Lenguaje para crear dibujos</h3>
+            </div>
+
+            <div class="card__body">
+              <p>
+                Scribble es un lenguaje de diseño que decidí crear por diversion para crear dibujos usando un canvas, su sintaxis en muy similar a la de
+                <a href="CSS"></a>
+              </p>
+            </div>
+
+            <div class="card__foot">
+              <ul class="navigation__branch navigation__branch-around">
+                <li class="navigation__item">
+                  <a href="https://github.com/MarcoAlvarez2003/scrawl-v1" target="_blank">Ver Proyecto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="card" id="stl">
+            <div class="card__head">
+              <h3>Lenguaje de programación para terminal</h3>
+            </div>
+
+            <div class="card__body">
+              <p>
+                Al igual que <a href="#scribble">Scribble</a> fue creado por diversion, este tiene una sintaxis muy parecida la entrada de linea de los
+                programas.
+              </p>
+            </div>
+
+            <div class="card__foot">
+              <ul class="navigation__branch navigation__branch-around">
+                <li class="navigation__item">
+                  <a href="https://github.com/MarcoAlvarez2003/simple-terminal-language" target="_blank">Ver Proyecto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card__head">
+              <h3>Linea de comandos</h3>
+            </div>
+
+            <div class="card__body">
+              <p>
+                Es una linea de interfaz de comandos, creada usando <a href="https://www.typescriptlang.org/" target="_blank">TypeScript</a> junto a
+                <a href="https://deno.land/" target="_blank">Deno</a>, puede cargar programas creados usando
+                <a href="https://www.typescriptlang.org/" target="_blank">TypeScript</a> entre otras características ademas de trabajar en conjunto con
+                <a href="#stl">Simple Terminal Language</a>
+              </p>
+            </div>
+
+            <div class="card__foot">
+              <ul class="navigation__branch navigation__branch-around">
+                <li class="navigation__item">
+                  <a href="https://github.com/MarcoAlvarez2003/MyTerminal" target="_blank">Ver version 1</a>
+                </li>
+
+                <li class="navigation_item">
+                  <a href="https://github.com/MarcoAlvarez2003/Term.ts" target="_blank">Ver version 2</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card__head">
+              <h3>Aplicación de notas web</h3>
+            </div>
+
+            <div class="card__body">
+              <p>
+                Es una aplicación para tomar notas en la web, usando <a href="https://www.typescriptlang.org/" target="_blank">TypeScript</a> y tecnologías web,
+                Hay varias versiones del mismo proyecto, cada uno fue creado intentando resolver los fallos de la antigua version o solo con el objetivo de
+                probar ideas sin afectar a las versiones estables, modificando la interfaz o funcionalidad.
+              </p>
+            </div>
+
+            <div class="card__foot">
+              <ul class="navigation__branch navigation__branch-around">
+                <li class="navigation__item">
+                  <a href="https://github.com/MarcoAlvarez2003/note-manager-web" target="_blank">Ver version 1</a>
+                </li>
+
+                <li class="navigation_item">
+                  <a href="https://github.com/MarcoAlvarez2003/my-notes-app" target="_blank">Ver version 2</a>
+                </li>
+
+                <li class="navigation_item">
+                  <a href="https://github.com/MarcoAlvarez2003/note-app" target="_blank">Ver version 3</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <footer class="app__foot" id="contacts">
+        <a href="https://stackoverflow.com/users/19967219/marco-alvarez" target="_blank">Stackoverflow</a>
+        <br />
+        <a href="https://www.facebook.com/profile.php?id=100085446797161" target="_blank">Facebook</a>
+        <br />
+        <a href="https://github.com/MarcosAlvarezTabora" target="_blank">Github</a>
+        <br />
+        <a href="https://twitter.com/MarcosYafeth" target="_blank">Twitter</a>
+      </footer>
+    </div>
+    <script src="./scripts/index.js" type="module"></script>
+  </body>
+</html>

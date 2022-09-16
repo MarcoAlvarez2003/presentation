@@ -1,0 +1,104 @@
+@import url("./default.css");
+
+.app {
+  background-color: var(--app-main-background-color);
+  padding: var(--app-main-padding-global);
+  color: var(--app-main-foreground-color);
+}
+
+.app__head {
+  background-color: var(--app-head-background-color);
+  padding: var(--app-head-padding-global);
+  color: var(--app-head-foreground-color);
+
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+
+  border-radius: var(--app-head-border-radius-global);
+  border-bottom: var(--app-head-border-bottom);
+}
+
+.app__body {
+  background-color: var(--app-body-background-color);
+  padding: var(--app-body-padding-global);
+  color: var(--app-body-foreground);
+
+  text-align: var(--app-body-text-align);
+}
+
+.app__foot {
+  background-color: var(--app-foot-background-color);
+  padding: var(--app-foot-padding-global);
+  color: var(--app-foot-foreground);
+
+  border-radius: var(--app-foot-border-radius-global);
+  border-top: var(--app-foot-border-top);
+}
+
+.navigation {
+  background-color: var(--navigation-element-background-color);
+  padding: var(--navigation-element-padding-global);
+  color: var(--navigation-element-foreground-color);
+}
+
+.navigation__branch {
+  background-color: var(--navigation-branch-background-color);
+  padding: var(--navigation-branch-padding-global);
+  color: var(--navigation-branch-foreground-color);
+
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.navigation__branch-between {
+  justify-content: space-between;
+}
+
+.navigation__branch-around {
+  justify-content: space-around;
+}
+
+.navigation__item {
+  background-color: var(--navigation-item-background-color);
+  padding: var(--navigation-item-padding-global);
+  color: var(--navigation-item-foreground-color);
+}
+
+.card {
+  background-color: var(--card-main-background-color);
+  padding: var(--card-main-padding-global);
+  color: var(--card-main-foreground-color);
+
+  text-align: center;
+}
+
+.card__head {
+  background-color: var(--card-head-background-color);
+  padding: var(--card-head-padding-global);
+  color: var(--card-head-foreground-color);
+
+  border-radius: var(--card-head-border-radius-global);
+}
+
+.card__body {
+  background-color: var(--card-body-background-color);
+  padding: var(--card-body-padding-global);
+  color: var(--card-body-foreground-color);
+}
+
+.card__foot {
+  background-color: var(--card-foot-background-color);
+  padding: var(--card-foot-padding-global);
+  color: var(--card-foot-foreground-color);
+
+  border-radius: var(--card-foot-border-radius-global);
+}
+
+@media screen and (min-width: 820px) {
+  .grid {
+    grid-template-columns: var(--grid-template-columns);
+    display: grid;
+  }
+}
